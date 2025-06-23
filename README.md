@@ -69,4 +69,4 @@ Script path: /data/user/0/org.test.idekivy/files/script.py
 
 But i dont know is multiprocessing running or it silently fails ?
 
-Note this approch is runing simple python code . 
+## Note this approch is runing simple python code . 
