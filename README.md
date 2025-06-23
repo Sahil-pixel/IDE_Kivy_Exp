@@ -38,14 +38,13 @@ if __name__ == '__main__':
     print("Subprocess finished", flush=True)
 ```
 
-###
+
 By default there was missing 
 files/app/lib/python3.11/lib-dynload/ 
 there is no 
 multiprocessing.cpython-311.so  _queue.cpython-311.so   _struct.cpython-311.so
 _pickle.cpython-311.so           select.cpython-311.so
 _posixsubprocess.cpython-311.so  _socket.cpython-311.so
-###
 
 
 But i multiprocessing fails 
