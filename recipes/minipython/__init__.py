@@ -1,3 +1,5 @@
+# mini_python_recipe
+
 from pythonforandroid.recipe import Recipe
 from pythonforandroid.util import current_directory, ensure_dir
 from os.path import join, dirname, exists
