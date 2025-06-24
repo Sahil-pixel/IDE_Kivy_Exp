@@ -6,7 +6,7 @@ name: Android Build
 on:
   push:
     branches:
-      - develop
+      - main
 
 jobs:
   build:
