@@ -39,7 +39,7 @@ class MiniPythonRecipe(Recipe):
         if not libpython:
             raise Exception("Could not find libpython")
 
-        env['CPPFLAGS'] = f'-I{python_include} -I{python_src}/Include -I{python_src}/Modules'
+        env['CPPFLAGS'] = f'-I{python_include} -I{python_src}/Include -I{python_src}/Modules -I{python_src}/Include/internal'
         env['LDFLAGS'] = f'{libpython} -llog -landroid -ldl -lm -lz'
         env['PYTHON_SRC'] = python_src
 
